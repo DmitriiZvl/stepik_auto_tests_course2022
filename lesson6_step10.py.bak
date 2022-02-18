@@ -14,7 +14,7 @@ try:
     input3 = browser.find_element_by_xpath("//input[contains(@class, 'third') and @required]")
     input3.send_keys("lol@Slol.com")
 
-    time.sleep(10)
+    time.sleep(5)
     # Отправляем заполненную форму
     button = browser.find_element_by_css_selector("button.btn")
     button.click()
